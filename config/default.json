@@ -1,3 +1,6 @@
 {
-   "mongoURI":"mongodb+srv://test123:users123@servicekeeper.zjyn3.mongodb.net/test?retryWrites=true&w=majority"
+   "mongoURI":"mongodb://pat123:pat123@servicekeeper-shard-00-00.zjyn3.mongodb.net:27017,servicekeeper-shard-00-01.zjyn3.mongodb.net:27017,servicekeeper-shard-00-02.zjyn3.mongodb.net:27017/test?ssl=true&replicaSet=atlas-5oxt3h-shard-0&authSource=admin&retryWrites=true&w=majority",
+   "username": "pat123",
+   "password":"pat123",
+   "cluster name": "ServiceKeeper"
 }
